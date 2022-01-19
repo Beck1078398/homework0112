@@ -16,6 +16,17 @@ console.log(arr[9])
 // }
 for (let i=0; i < arr.length; i++){
     if(arr[i]%2){
-        console.log(arr[i] + '是奇數')
+        // console.log(arr[i] + '是奇數')
     }
 }
+
+
+let x=5;
+let y='5';
+// console.log(!(x==y));
+// console.log(!(x===y))
+
+// 條件運算子:?:
+let score = 100;
+let show = (score >= 60) ?'分數及格' : '分數不及格' ;
+console.log(score,show);
